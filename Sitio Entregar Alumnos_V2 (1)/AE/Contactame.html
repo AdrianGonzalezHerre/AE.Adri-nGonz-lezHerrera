@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="body" class="body">
+        <p>ㅤㅤ</p>
+    </div>
+    <link rel="stylesheet" href="../Sitio Entregar Alumnos/css/estilos.css">
+    <div  id="header" class="header">
+        <div>
+                <a href="../AE/Index.html"> Tim Berners-Lee</a>
+                <br>
+                <a href="../AE/Portafolio.html"> Portafolios</a>
+                <br>
+                <a href="../AE/Precios.html"> Precios</a>
+                <br>
+                <a href="../AE/Contactame.html"> Contactame</a>
+                <br>
+                <img src="../Sitio Entregar Alumnos/imagenes/imagen-menu.png" alt="menu" usemap="#mapa-menu">
+                <map name="mapa-menu">
+                    <area shape="rect" coords="15,45,108,132" href="../AE/Index.html" alt="Cuadrado">
+                    <area shape="circle" coords="171,89,49" href="Portafolio.html" alt="Circulo">
+                    <area shape="poly" coords="232,136,288,43,344,135" href="../AE/Precios.html" alt="Triangulo">
+                    <area shape="rect" coords="352,33,439,139" href="../AE/Contactame.html" alt="Rectangulo">
+                </map>
+                <div id="body" class="body">
+                    <p>ㅤㅤ</p>
+                </div>
+        </div> 
+        <div id="main-content" class="main-content">
+        <h3>Datos personales</h3>
+        <form action="contactar.php">
+             Nombre <input type="text" name="Nombre" value="Introduzca su nombre"> <br>
+             Apellidos <input type="text" name="Apellidos" value="Introduzca sus apellidos"> <br>
+             E-mail <input type="text" name="E-mail"> <br>
+             Fecha de nacimiento <input type="date" name="Fecha de nacimiento"> <br>
+             Edad <input type="number" size="3" maxlength="2"> <br>
+             Sexo <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+             <input type="radio" name="sexo" value="mujer" /> Mujer<br>
+             Pais <label for="Pais"></label>
+            <select name="Pais" id="Pais">
+                <option value="" selected>-seleccione su pais-</option>
+                <option value="España"> España </option>
+                <option value="Portugal"> Portugal</option>
+                <option value="Marruecos"> Marruecos</option>
+            </select>
+        <h3>Otros Datos</h3>
+                   <label for="Mensaje">Mensaje</label><br/>
+            <textarea id="Mensaje" name="Mensaje" cols="40" rows="5"></textarea><br>          
+             Añade una foto <input type="file"><br>
+            <input type="checkbox" name="condiciones" value="He leido las condiciones"> He leido las condiciones... <br>
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+        </form>
+               
+        </div>
+        <div id="body" class="body">
+            <p>ㅤㅤ</p>
+        </div>
+        <div id=".articulo" class=".articulo">
+            <h3>Centro de referencia</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.779733641413!2d-16.28545688492136!3d28.45605558248781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cceee5a8035f%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1635879648119!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="body" class="body">
+            <p>ㅤㅤ</p>
+        </div>
+        <div id="footer" class="footer">
+            <a href="../AE/Index.html"> Inicio</a>
+        </div>
+        <div id="body" class="body">
+            <p>ㅤㅤ</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
